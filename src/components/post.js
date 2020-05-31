@@ -43,12 +43,12 @@ const Post = ({
           ) : null}
         </div>
 
-//         {coverImage && (
-//           <Img
-//             fluid={coverImage.childImageSharp.fluid}
-//             className={style.coverImage}
-//           />
-//         )}
+        {coverImage && (
+          <Img
+            fluid={coverImage.childImageSharp.fluid}
+            className={style.coverImage}
+          />
+        )}
 
         {excerpt ? (
           <>
